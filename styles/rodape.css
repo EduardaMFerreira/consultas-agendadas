@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.rodape {
+    background: var(--cor-quaternaria);
+    border-radius: 1em 1em 0 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.148);
+    position: fixed;
+    bottom: 0; /* Fixa no final da janela */
+    left: 0;
+    width: 100%;
+}
+
+.rodape ul {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.rodape li{
+    text-align: center;
+}
+
+.rodape a{
+    color: var(--cor-principal);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.rodape p {
+    padding-top: 0.2em;
+}
+
+.rodape__secao a{
+    color: var(--cor-sextenaria);
+}

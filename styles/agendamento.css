@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+main {
+    padding: 0 1em;
+}
+
 .agendamento {
     background-color: var(--cor-quaternaria);
     border-radius: 8px;
