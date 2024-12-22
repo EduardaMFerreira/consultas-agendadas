@@ -91,6 +91,9 @@ main {
     .container {
         flex-direction: row;
         flex-wrap: wrap;
-        
     }
+    .cabecalho, main {
+        margin-left: 15%;
+    }
+    
 }
