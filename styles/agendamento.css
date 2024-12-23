@@ -93,7 +93,7 @@ main {
         flex-wrap: wrap;
     }
     .cabecalho, main {
-        padding-left: 18vw;
+        padding-left: 12em;
     }
     
 }
